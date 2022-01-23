@@ -50,7 +50,7 @@ const LoginBtn = () => {
       <div className="py-8 flex flex-col gap-5">
         <a
           onClick={GoogleAuth}
-          className="relative text-sm font-light inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden text-black transition-all duration-150 ease-in-out rounded-full hover:pl-10 hover:pr-6 bg-white group"
+          className="cursor-pointer relative text-sm font-light inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden text-black transition-all duration-150 ease-in-out rounded-full hover:pl-10 hover:pr-6 bg-white group"
         >
           <span className="absolute bottom-0 left-0 w-full h-[2px] transition-all duration-150 ease-in-out bg-[#ff758f] group-hover:h-full"></span>
           <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
