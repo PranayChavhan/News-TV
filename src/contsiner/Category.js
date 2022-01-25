@@ -2,7 +2,7 @@ import React from 'react';
 
 const Category = () => {
   return(
-      <div className='bg-white mt-10 rounded-lg px-8 py-5'>
+      <div className='bg-white mt-10 rounded-lg px-8 py-5 hidden lg:block'>
           <h1 className="font-bold text-2xl font-sans mb-5">
               Category
           </h1>

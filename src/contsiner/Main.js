@@ -7,7 +7,7 @@ import { VscSaveAs } from "react-icons/vsc";
 const Main = () => {
   return (
     <div>
-      <h1 className="font-bold text-2xl font-sans">Politics</h1>
+      <h1 className="font-bold text-2xl font-sans px-3 sm:px-0">Politics</h1>
       <div className="bg-white rounded-lg px-2 py-2 mt-4">
         <div className="flex justify-center items-center">
           <img
@@ -42,11 +42,11 @@ const Main = () => {
               the Hover, Focus, Other States documentation.
             </h1>
             <a
-              className=" flex text-sm py-1 border-black justify-center items-center gap-2 border-2 rounded-full"
+              className=" flex text-sm py-1 justify-center items-center gap-2 border-2 rounded-full"
               href="/"
             >
               <VscSaveAs />
-              Save to pocket
+              <span className="hidden lg:block" >Save to pocket</span>
             </a>
             <span className="col-start-1 col-end-4 text-[10px] font-sans pt-4">
               By{" "}
@@ -59,7 +59,8 @@ const Main = () => {
               href="/"
             >
               <AiOutlineShareAlt />
-              Share on media
+              <span className="hidden lg:block" >Share on media</span>
+              
             </a>
           </div>
         </div>

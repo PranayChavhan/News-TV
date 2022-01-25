@@ -25,10 +25,10 @@ const Profile = () => {
 
 
   return (
-    <div className="bg-white mt-10 rounded-lg px-8 py-5">
+    <div className="bg-white mt-10 rounded-lg px-8 py-5 hidden lg:block">
       <div className="flex justify-between items-baseline">
         <img src="/images/facebook.svg" alt="" />
-        <div className="cursor-pointer flex flex-col items-end ">
+        <div className=" xl:block hidden cursor-pointer flex-col items-end ">
           <div className="hover:opacity-100">
             <FiSettings />
             <IoIosArrowDown />
@@ -36,7 +36,7 @@ const Profile = () => {
           <div className="min-h-fit pt-7 rounded-md absolute -mr-6 opacity-0 hover:opacity-100 ">
           <button 
           onClick={handleAuth}
-          className=" hover:opacity-70 bg-black text-white text-[16px] p-1 rounded-md">
+          className="hover:opacity-70 bg-black text-white text-[16px] p-1 rounded-md">
             Sign out
           </button>
           </div>

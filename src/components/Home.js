@@ -11,6 +11,8 @@ const Home = () => {
   return(
       <div className="bg-[#f8f9fa] min-h-screen" >
           <Navbar/>
+          <div className="hidden sm:block" >
+
           <div className='grid grid-cols-6 gap-8 min-h-screen px-20  py-5' >
             <div className='col-start-1 col-end-2 mt-2'>
               <Profile/>
@@ -22,6 +24,11 @@ const Home = () => {
             <div className='col-start-5 col-end-7'>
               <Related/>
             </div>
+          </div>
+          </div>
+          <div className="block sm:hidden">
+          <Related/>
+          <Main/>
           </div>
       </div>
   );
