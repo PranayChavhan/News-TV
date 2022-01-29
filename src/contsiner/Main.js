@@ -46,7 +46,7 @@ const Main = () => {
               href="/"
             >
               <VscSaveAs />
-              <span className="hidden lg:block" >Save to pocket</span>
+              <span className="hidden lg:block">Save to pocket</span>
             </a>
             <span className="col-start-1 col-end-4 text-[10px] font-sans pt-4">
               By{" "}
@@ -59,13 +59,12 @@ const Main = () => {
               href="/"
             >
               <AiOutlineShareAlt />
-              <span className="hidden lg:block" >Share on media</span>
-              
+              <span className="hidden lg:block">Share on media</span>
             </a>
           </div>
         </div>
       </div>
-      <div  className="px-8 py-5">
+      <div className="px-8 py-5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facere
         officia optio tenetur? Ullam similique, placeat voluptatibus inventore,
         minima possimus vitae id odit numquam dolores blanditiis quae nulla
@@ -99,7 +98,6 @@ const Main = () => {
         Error cupiditate aut rerum quod commodi architecto dolorum, nisi vel ea
         esse obcaecati, eius aspernatur quam dolore porro ab enim, at veniam?
         Amet, sunt hic.
-
       </div>
     </div>
   );
