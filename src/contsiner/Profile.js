@@ -33,7 +33,7 @@ const Profile = () => {
   return (
     <div className="bg-white mt-10 rounded-lg px-8 py-5 hidden lg:block">
       <div className="flex justify-between items-baseline">
-        <img src={userPhoto} className="rounded-full w-12" alt={userName} />
+        <img className="rounded-full w-12" src={userPhoto}  alt={userName} />
         <div className=" xl:block hidden cursor-pointer flex-col items-end ">
           <div className="hover:opacity-100">
             <FiSettings />
