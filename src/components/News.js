@@ -52,19 +52,6 @@ const News = (props) => {
     setLoading(false);
   };
 
-  //   const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=4d0cd325c25643cd82968865b76e41a0`;
-
-  //   useEffect(() => {
-  //     fetch(url)
-  //       .then((response) => response.json())
-  //       .then((json) => {
-  //         setArticle(json.articles);
-  //       })
-  //       .catch((e) => {
-  //         console.log("e", e);
-  //       });
-  //   }, []);
-
   return (
     <div className="bg-[#f8f9fa] ">
       <Navbar />
