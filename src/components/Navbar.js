@@ -8,7 +8,11 @@ import { FiSearch } from "react-icons/fi";
 
 const Navbar = () => {
   return (
-    <div className="bg-white md:px-20 px-4 py-4 ">
+    <>
+   <div className="sticky top-0">
+
+   
+    <div className="bg-white md:px-20 px-4 py-4">
       <div className="flex justify-between items-center">
         <div className="text-2xl font-[900] font-sans">
           <a href="/">NEWS</a>
@@ -86,6 +90,8 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
+    </div>
+    </>
   );
 };
 

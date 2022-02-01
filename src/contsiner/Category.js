@@ -7,17 +7,17 @@ const Category = () => {
               Category
           </h1>
           <div className="flex flex-col gap-2" >
-              <a href="/">Politics</a>
-              <a href="/">National</a>
-              <a href="/">International</a>
-              <a href="/">Regulation</a>
-              <a href="/">Business</a>
-              <a href="/">Finance</a>
-              <a href="/">Health Care</a>
-              <a href="/">Jobs</a>
-              <a href="/">Bollywood</a>
-              <a href="/">Kids</a>
-              <a href="/">Media</a>
+              <a href="/home">General</a>
+              <a href="/business">Business</a>
+              <a href="/entertainment">Entertainment</a>
+              <a href="/helth">Helth Care</a>
+              <a href="/science">Science</a>
+              <a href="/sports">Sports</a>
+              <a href="/technology">Technology</a>
+              <a href="/general">Jobs</a>
+              <a href="/entertainment">Bollywood</a>
+              <a href="/science">Kids</a>
+              <a href="/entertainment">Media</a>
           </div>
       </div>
   )
